@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#141414">
+  <meta name="description" content="A letter of apology.">
+  <title>Our Story</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <section id="profile-screen" class="profile-screen">
+    <a class="wordmark" href="#">OUR STORY</a>
+    <div class="profile-backdrop"></div>
+    <main class="profile-content">
+      <h1>Who is this letter for?</h1>
+      <button class="profile-tile" id="open-letter">
+        <span class="avatar"><img src="css/IMG_20261001_174948.jpg" alt=""></span>
+        <span>My favourite person</span>
+      </button>
+    </main>
+  </section>
+
+  <div id="browse-screen" class="browse-screen" hidden>
+    <header class="site-header" id="site-header">
+      <a href="#home" class="wordmark">OUR STORY</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a class="active" href="#home">Home</a>
+        <a href="#letter">My Letter</a>
+        <a href="#memories">Our Memories</a>
+        <a href="#promise">My Promise</a>
+      </nav>
+      <button class="profile-button" id="switch-profile" aria-label="Return to profile screen"><img src="css/IMG_20261001_174948.jpg" alt=""></button>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <video class="hero-video" autoplay muted loop playsinline preload="metadata" aria-hidden="true"><source src="css/video_20260930_164817.mp4" type="video/mp4"></video>
+        <img class="hero-image" src="css/IMG_20261108_211000.jpg" alt="A shared memory">
+        <div class="hero-shade"></div>
+        <div class="hero-copy">
+          <p class="original"><b>♡</b> A LETTER FROM MY HEART</p>
+          <h1>I AM SORRY</h1>
+          <p class="hero-meta">For being absent when you deserved all of me</p>
+          <p>I let work, tiredness, and “later” take up the space that should have been ours. This is me finally saying what you should have heard a long time ago.</p>
+          <div class="hero-actions"><a class="button white" href="#letter">▶ Read my letter</a><a class="button gray" href="#memories">ⓘ Our memories</a></div>
+        </div>
+        <div class="hero-bottom"><span>01 / 01</span><strong>For you, always.</strong></div>
+      </section>
+
+      <section id="letter" class="letter-section">
+        <p class="shelf-title">THE TRUTH I NEED YOU TO KNOW</p>
+        <div class="letter-card">
+          <p class="letter-intro">I have been taking you for granted.</p>
+          <p>I kept acting like my work could wait for nothing—except you. I let my schedule, stress, and tiredness become excuses. I kept saying “later,” believing there would always be more time, while making you feel like you had to compete for mine.</p>
+          <p>You deserved to feel chosen, heard, and important in my life. Instead, I made you feel alone beside me. I understand that good intentions do not erase the hurt I caused, and I am not going to make excuses for it anymore.</p>
+        </div>
+      </section>
+
+      <section id="memories" class="shelf-section">
+        <div class="shelf-heading"><h2>Moments I Should Have Been More Present For</h2><span>Every one of them matters to me</span></div>
+        <div class="shelf-track">
+          <button class="memory-card" data-memory="The little moments that felt special because of you" data-image="css/IMG_20260503_133026.jpg"><img src="css/IMG_20260503_133026.jpg" alt="A shared memory"><video muted loop playsinline preload="metadata"><source src="css/video_20260422_110038.mp4" type="video/mp4"></video><span>THE LITTLE THINGS</span><i>▶</i></button>
+          <button class="memory-card" data-memory="Your smile is something I never want to be the reason you lose" data-image="css/IMG_20261001_180230.jpg"><img src="css/IMG_20261001_180230.jpg" alt="A shared memory"><video muted loop playsinline preload="metadata"><source src="css/video_20260428_180818.mp4" type="video/mp4"></video><span>YOUR SMILE</span><i>▶</i></button>
+          <button class="memory-card" data-memory="A reminder that being beside you is not the same as being present with you" data-image="css/IMG_20260928_223743.jpg"><img src="css/IMG_20260928_223743.jpg" alt="A shared memory"><video muted loop playsinline preload="metadata"><source src="css/video_20261010_151339.mp4" type="video/mp4"></video><span>US</span><i>▶</i></button>
+          <button class="memory-card" data-memory="I never want our moments to become something I only appreciate after they are gone" data-image="css/IMG_20261108_210906.jpg"><img src="css/IMG_20261108_210906.jpg" alt="A shared memory"><video muted loop playsinline preload="metadata"><source src="css/video_20261031_210325.mp4" type="video/mp4"></video><span>OUR TIME</span><i>▶</i></button>
+          <button class="memory-card" data-memory="The ordinary days I want to make room for, every single time" data-image="css/IMG_20260503_001550.jpg"><img src="css/IMG_20260503_001550.jpg" alt="A shared memory"><video muted loop playsinline preload="metadata"><source src="css/video_20260523_135849.mp4" type="video/mp4"></video><span>ORDINARY DAYS</span><i>▶</i></button>
+        </div>
+      </section>
+
+      <section class="shelf-section more-memories">
+        <div class="shelf-heading"><h2>More of the Memories I Hold Close</h2><span>Hover over a card to play the moment</span></div>
+        <div class="shelf-track">
+          <button class="memory-card" data-memory="The joy I want to keep choosing with you" data-image="css/IMG_20260503_001545.jpg"><img src="css/IMG_20260503_001545.jpg" alt="A shared memory"><video muted loop playsinline preload="metadata"><source src="css/video_20260503_002940.mp4" type="video/mp4"></video><span>THE JOY</span><i>▶</i></button>
+          <button class="memory-card" data-memory="The days that felt easy because you were there" data-image="css/IMG_20260503_133257.jpg"><img src="css/IMG_20260503_133257.jpg" alt="A shared memory"><video muted loop playsinline preload="metadata"><source src="css/video_20260503_013839.mp4" type="video/mp4"></video><span>EASY DAYS</span><i>▶</i></button>
+          <button class="memory-card" data-memory="Every adventure is better when I am fully there with you" data-image="css/IMG_20260610_125711.jpg"><img src="css/IMG_20260610_125711.jpg" alt="A shared memory"><video muted loop playsinline preload="metadata"><source src="css/video_20260515_104941.mp4" type="video/mp4"></video><span>ADVENTURES</span><i>▶</i></button>
+          <button class="memory-card" data-memory="Your laughter is a place I want to return to" data-image="css/IMG_20261031_211132.jpg"><img src="css/IMG_20261031_211132.jpg" alt="A shared memory"><video muted loop playsinline preload="metadata"><source src="css/video_20260718_174659.mp4" type="video/mp4"></video><span>YOUR LAUGHTER</span><i>▶</i></button>
+          <button class="memory-card" data-memory="I want to cherish our life together as it happens" data-image="css/IMG_20261108_210913.jpg"><img src="css/IMG_20261108_210913.jpg" alt="A shared memory"><video muted loop playsinline preload="metadata"><source src="css/video_20260929_185019.mp4" type="video/mp4"></video><span>TOGETHER</span><i>▶</i></button>
+          <button class="memory-card" data-memory="The future I hope we can still make time for" data-image="css/IMG_20261108_210914.jpg"><img src="css/IMG_20261108_210914.jpg" alt="A shared memory"><video muted loop playsinline preload="metadata"><source src="css/video_20260930_145048.mp4" type="video/mp4"></video><span>OUR FUTURE</span><i>▶</i></button>
+        </div>
+      </section>
+
+      <section id="promise" class="promise-section">
+        <div class="promise-copy"><p class="shelf-title">WHAT I WANT TO CHANGE</p><h2>I do not want to offer another promise without showing you the difference.</h2><p>I want to make real time for us, not leave you with whatever is left after everything else. I want to be fully present, listen without defending myself, and choose you in the quiet, everyday ways that make love feel safe.</p></div>
+        <div class="promise-list"><div><b>01</b><h3>Protect our time</h3><p>No multitasking. No work quietly taking over every free moment.</p></div><div><b>02</b><h3>Listen properly</h3><p>I will hear your hurt instead of arguing with it.</p></div><div><b>03</b><h3>Show up consistently</h3><p>Not one grand gesture—just being there, again and again.</p></div></div>
+      </section>
+
+      <section class="apology-wrap">
+        <article class="apology-card">
+          <span class="apology-heart">♡</span>
+          <p class="shelf-title">FROM ME, WITH NO EXCUSES</p>
+          <h2>I AM SO,<br><em>SO SORRY.</em></h2>
+          <p>I am sorry for the times I made you feel second to my work. I am sorry for every moment you needed me and I was only half there. I am sorry for not making your importance in my life clear, constant, and loving.</p>
+          <p>You have always mattered to me. I failed to make you feel that—and I understand why that has brought us here.</p>
+          <p>I cannot ask you to forget the hurt or rush you to forgive me. I only hope you will let me prove, patiently and honestly, that I can love you better than I have.</p>
+          <strong>With all my love,<br><span>Yours</span></strong>
+        </article>
+      </section>
+    </main>
+    <footer>Made for the person who deserves to feel chosen. <button id="top-button">Back to top</button></footer>
+  </div>
+  <dialog id="memory-dialog" class="expanded-preview"><button class="close" id="close-dialog" aria-label="Close preview">×</button><video id="dialog-video" controls playsinline></video><p id="dialog-caption"></p></dialog>
+</body>
+</html>
